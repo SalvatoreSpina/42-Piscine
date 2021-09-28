@@ -1,0 +1,5 @@
+Credentials cache: API:EAFA8F07-BA03-4DA8-A4CA-77AC25B36203
+        Principal: sspina@42NICE.FR
+
+  Issued                Expires               Principal
+Sep  6 19:26:50 2021  Sep  7 05:26:50 2021  krbtgt/42NICE.FR@42NICE.FR
