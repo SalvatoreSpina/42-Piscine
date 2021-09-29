@@ -10,18 +10,20 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdlib.h>
+
 int	*ft_map(int *tab, int length, int (*f)(int))
 {
 	int	n;
 	int	*counter;
-
+	
 	n = 0;
 	counter = malloc(sizeof(int) * length);
-	if (!reb || length < 1)
+	if (!counter || length < 1)
 		return (NULL);
 	while (n < length)
 	{
-		reb[n] = (*f)(tab[n]);
+		counter[n] = (*f)(tab[n]);
 		n++;
 	}
 	return (counter);
